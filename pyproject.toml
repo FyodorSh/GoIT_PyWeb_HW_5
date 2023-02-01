@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "goit-pyweb-hw-5"
+version = "0.1.0"
+description = ""
+authors = ["Fyodor Shevchenko <fyodor.shevchenko@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_pyweb_hw_5"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
